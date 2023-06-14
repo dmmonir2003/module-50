@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 const Product = (props) => {
     const { name, img, price, seller, ratings } = props.product;
-    console.log(img);
+
     const productAddToCart = props.productAddToCart;
     const handleImageError = (event) => {
         event.target.style.display = 'none';
