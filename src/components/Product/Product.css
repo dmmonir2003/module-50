@@ -47,3 +47,11 @@
 .btn-cart:hover {
     background-color: orange;
 }
+
+.img-alt {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: lightsalmon;
+
+}
