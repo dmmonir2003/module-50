@@ -1,0 +1,40 @@
+.revewItem {
+    width: 571px;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.rivew-details {
+    flex-grow: 1;
+    margin-left: 25px;
+}
+
+.rivew-details p {
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.font-color {
+    color: orange;
+
+}
+
+.revewItem img {
+    width: 91px;
+    height: 91px;
+}
+
+.delete-btn {
+    background-color: rgb(174, 147, 136);
+    color: orange;
+    margin-right: 20px;
+}
